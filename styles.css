@@ -1,0 +1,30 @@
+body,main{
+    background-image: url('https://wallpapercave.com/wp/wp9189897.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+}
+body{
+    flex-direction: column
+}
+main{
+    flex: auto;
+    flex-direction: row;
+    
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+ }
+p{
+    text-align: justify;
+}
+.color{
+    background-color: rgba(255,255,255,0.3);
+   }
